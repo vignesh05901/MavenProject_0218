@@ -1,19 +1,19 @@
 pipeline {
  agent any
   stages{
-   stage(Build){
+   stage(build){
      steps{
        echo " Welcome to Build Stage"
           }
       }
    
-     stage(Test){
+     stage(test){
      steps{
        echo " Welcome to Test Stage"
           }
       }
    
-     stage(Deploy){
+     stage(deploy){
      steps{
        echo " Welcome to Deploy Stage"
           }
